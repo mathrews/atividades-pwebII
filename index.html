@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Exercício Bootstrap</title>
+  </head>
+
+  <body>
+    <!-- HEADER COM NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Site</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CONTEÚDO -->
+    <div class="container mt-4">
+      <div class="row">
+        <!-- COLUNA 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://picsum.photos/300/200" class="card-img-top" />
+
+            <div class="card-body">
+              <h5 class="card-title">Título 1</h5>
+              <p class="card-text">Exemplo de conteúdo dentro do card.</p>
+
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUNA 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://picsum.photos/301/200" class="card-img-top" />
+
+            <div class="card-body">
+              <h5 class="card-title">Título 2</h5>
+              <p class="card-text">
+                Outro conteúdo para demonstrar o uso do card.
+              </p>
+
+              <a href="#" class="btn btn-success">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUNA 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://picsum.photos/302/200" class="card-img-top" />
+
+            <div class="card-body">
+              <h5 class="card-title">Título 3</h5>
+              <p class="card-text">Mais um exemplo de card com imagem.</p>
+
+              <a href="#" class="btn btn-danger">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JUMBOTRON -->
+      <div class="mt-5 p-5 bg-primary text-white rounded">
+        <h1>Destaque da Página</h1>
+
+        <p>
+          Este é um espaço para uma informação importante ou promoção do site.
+        </p>
+
+        <button class="btn btn-light">Veja mais</button>
+      </div>
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-secondary text-white text-center p-3 mt-4">
+      <img
+        src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+        width="40"
+      />
+
+      <p class="mt-2">Feito com Bootstrap</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
